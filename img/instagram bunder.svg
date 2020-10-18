@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.70666in" height="1.70666in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1706.66 1706.66"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <radialGradient id="id0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.84706 -2.13984 -1.73754 -1.49981 2691 4634)" cx="226.77" cy="1659.47" r="1560.77" fx="226.77" fy="1659.47">
+   <stop offset="0" style="stop-opacity:1; stop-color:#EFE418"/>
+   <stop offset="0.4" style="stop-opacity:1; stop-color:#E62E74"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#384799"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2013343521088">
+   <path class="fil0" d="M1673.67 862.88c0,448.92 -363.93,812.85 -812.87,812.85 -448.93,0 -812.87,-363.94 -812.87,-812.85 0,-448.95 363.94,-812.88 812.87,-812.88 448.93,0 812.87,363.93 812.87,812.88z"/>
+   <path class="fil1" d="M640.59 393.06c-152.04,0 -275.74,123.7 -275.74,275.74l0 388.13c0,152.04 123.7,275.72 275.74,275.72l440.45 0c152.03,0 275.72,-123.69 275.72,-275.72l0 -388.13c0,-152.04 -123.69,-275.74 -275.72,-275.74l-440.45 0zm440.45 1018.4l-440.45 0c-195.48,0 -354.52,-159.07 -354.52,-354.53l0 -388.13c0,-195.48 159.04,-354.53 354.52,-354.53l440.45 0c195.47,0 354.51,159.05 354.51,354.53l0 388.13c0,195.46 -159.04,354.53 -354.51,354.53z"/>
+   <path class="fil1" d="M860.81 626.07c-130.57,0 -236.79,106.22 -236.79,236.8 0,130.56 106.21,236.78 236.79,236.78 130.56,0 236.79,-106.22 236.79,-236.78 0,-130.59 -106.22,-236.8 -236.79,-236.8zm0 552.37c-174.01,0 -315.57,-141.57 -315.57,-315.56 0,-174.03 141.56,-315.59 315.57,-315.59 174.01,0 315.57,141.56 315.57,315.59 0,173.99 -141.57,315.56 -315.57,315.56z"/>
+   <path class="fil1" d="M1237.03 557.01c0,36.15 -29.31,65.46 -65.48,65.46 -36.17,0 -65.48,-29.32 -65.48,-65.46 0,-36.18 29.31,-65.49 65.48,-65.49 36.17,0 65.48,29.31 65.48,65.49z"/>
+  </g>
+ </g>
+</svg>
