@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafaMedia - Setting Akun</title>
+		<link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../css/style setting kontributor.css" />
+		<link rel="stylesheet" href="../../css/bootstrap-datepicker.min.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="pos-f-l">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div
+						class="collapse text-decoration-none"
+						id="navbarToggleExternalContent"
+					>
+						<div class="pilihan mt-4">
+							<a href="akun kontributor.html" class="text-decoration-none"
+								><h6>Dashboard</h6></a
+							>
+							<a href="setting kontributor.html" class="text-decoration-none"
+								><h6>Setting</h6></a
+							>
+							<a href="statistics kontributor.html" class="text-decoration-none"
+								><h6>Statistics</h6></a
+							>
+							<a href="help kontributor.html" class="text-decoration-none"
+								><h6>Help</h6></a
+							>
+							<a href="about kontributor.html" class="text-decoration-none"
+								><h6>About</h6></a
+							>
+							<a href="../../index.html" class="text-decoration-none"
+								><h6>Log Out</h6></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="account">
+					<div class="logo d-inline-block">
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/message.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada pesan</h6>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/bell.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada notifikasi</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						href="akun kontributor.html"
+						class="text-decoration-none d-inline-block"
+						><h6 class="mx-2 d-inline-block">Kontributor</h6>
+						<img
+							src="../../img/pas foto merah.jpg"
+							alt=""
+							width="40em"
+							height="40em"
+							class="mb-1 d-inline-block"
+						/>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<section class="setting mb-5" id="setting">
+			<div class="container container-fluid">
+				<h4 class="mb-4">Setting</h4>
+				<div class="row">
+					<div class="col-md-9">
+						<section class="profile p-3" id="profile">
+							<div class="container container-fluid">
+								<h5>Profil</h5>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="col-md-3">
+												<img
+													src="../../img/pas foto merah.jpg"
+													alt=""
+													width="140px"
+													height="140px"
+												/>
+											</div>
+											<div class="col-md-4 mt-3">
+												<h6>Contoh Nama Kontributor</h6>
+												<p>
+													kontributor@gmail.com<small
+														id="last-seen"
+														class="form-text text-muted"
+													>
+														Baru saja dilihat
+													</small>
+												</p>
+											</div>
+											<div class="col-md-5">
+												<div class="row justify-content-end">
+													<div class="col-md-5">
+														<div class="user">
+															<h6 class="bg-dark p-1 text-center rounded-lg">
+																Kontributor
+															</h6>
+														</div>
+														<div class="tanggal-masuk">
+															<p>Mendaftar Tanggal 23 Februari 2019</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="edit-profil p-3 mt-4 pl-4" id="edit-profil">
+							<div class="row">
+								<div class="col-md-6">
+									<h5 class="my-4">Edit Profil</h5>
+									<div class="container-container-fluid">
+										<div class="row justify-content-start">
+											<div class="col-md-12">
+												<form>
+													<div class="form-group mb-3">
+														<label for="nama1">Nama</label>
+														<input
+															type="text"
+															class="form-control nama1"
+															id="nama1"
+															placeholder="Masukkan nama baru"
+															aria-label="Nama"
+															aria-describedby="basic-addon1"
+															value="Contoh Nama Kontributor"
+															required
+														/>
+													</div>
+													<div class="form-group mb-3">
+														<label for="email1">Email</label>
+														<input
+															type="email"
+															class="form-control email1"
+															id="email1"
+															placeholder="Masukkan email"
+															value="kontributor@gmail.com"
+															aria-label="Email"
+															aria-describedby="basic-addon1"
+														/>
+													</div>
+													<div class="form-group mb-3">
+														<label for="nohp">No. Hp</label>
+														<input
+															type="tel"
+															class="form-control nohp"
+															id="nohp"
+															placeholder="Masukkan nomor hp baru"
+															aria-label="Nomor Hp"
+															aria-describedby="basic-addon1"
+															value="+6281827482058"
+														/>
+														<small
+															id="noHpHelpBlock"
+															class="form-text text-muted"
+														>
+															Masukkan nomor dengan format +628xx
+														</small>
+													</div>
+													<div class="form-group mb-3">
+														<label for="gender">Kelamin</label>
+														<select class="form-control gender" id="gender">
+															<option value="male">Laki-Laki</option>
+															<option value="female">Perempuan</option>
+														</select>
+													</div>
+													<div class="form-group mb-3">
+														<label for="tanggal-lahir">Tanggal Lahir</label>
+														<input
+															type="text"
+															class="form-control datepicker tanggal-lahir"
+															id="tanggal-lahir"
+															placeholder="  Masukkan tanggal lahir baru"
+															aria-label="Tanggal-Lahir"
+															aria-describedby="basic-addon1"
+															value="1997-05-19"
+														/>
+													</div>
+													<div class="form-group mb-4 alamatlur">
+														<label for="alamat">Alamat</label>
+														<textarea
+															class="form-control alamat"
+															id="alamat"
+															aria-label="With textarea"
+															placeholder="Masukkan alamat baru"
+														>
+Surabaya Lidah Wetan</textarea
+														>
+													</div>
+													<div class="form-group">
+														<label for="foto">Foto Baru</label>
+														<div class="custom-file">
+															<input
+																type="file"
+																class="custom-file-input"
+																id="foto"
+																id="validatedCustomFile"
+																required
+															/>
+															<label
+																class="custom-file-label"
+																for="validatedCustomFile"
+																>Choose file...</label
+															>
+															<div class="invalid-feedback">
+																Example invalid custom file feedback
+															</div>
+														</div>
+													</div>
+													<button type="submit" class="btn btn-dark">
+														<a
+															href="setting kontributor.html"
+															class="text-decoration-none"
+															style="color: white;"
+															>Simpan</a
+														>
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<h5 class="my-4">Edit Password</h5>
+									<div class="row">
+										<div class="col-md-12">
+											<form>
+												<div class="form-group mb-3">
+													<label for="password1">Password Lama</label>
+													<input
+														type="password"
+														class="form-control password1"
+														id="password1"
+														placeholder="Masukkan password lama"
+														aria-label="Password"
+														aria-describedby="basic-addon1"
+														required
+													/>
+												</div>
+												<label for="baru-password">Password Baru</label>
+												<div class="form-group mb-3">
+													<input
+														type="password"
+														class="form-control baru-password"
+														placeholder="Masukkan password baru"
+														aria-label="Baru-Password"
+														aria-describedby="basic-addon1"
+														required
+													/>
+													<small
+														id="passwordHelpBlock"
+														class="form-text text-muted"
+													>
+														Password harus memiliki panjang 8 - 20 karakter,
+														termasuk huruf dan angka. Tidak termasuk dengan
+														huruf spasi, karakter spesial, atau emoji.
+													</small>
+												</div>
+												<div class="form-group mb-3">
+													<input
+														type="password"
+														class="form-control verif-password"
+														placeholder="Masukkan password lagi"
+														aria-label="Verifikasi-Password"
+														aria-describedby="basic-addon1"
+														required
+													/>
+												</div>
+												<button type="submit" class="btn btn-dark">
+													<a
+														href="setting kontributor.html"
+														class="text-decoration-none"
+														style="color: white;"
+														>Simpan</a
+													>
+												</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-md-3 tempat-kanan">
+						<section class="kalimat-quotes">
+							<div class="container container-fluid">
+								<h5 class="py-3 mt-3 text-center">Quotes Hari Ini</h5>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<img src="../../img/quotes6.jpeg" alt="" />
+											<p class="font-weight-bold text-center mt-3">
+												“ Jangan tanyakan pada diri Anda apa yang dibutuhkan
+												dunia. Bertanyalah apa yang membuat Anda hidup, kemudian
+												kerjakan. Karena yang dibutuhkan dunia adalah orang yang
+												antusias”
+											</p>
+											<p class="font-weight-bold text-center">
+												- Harold Whitman
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="kalimat-quotes">
+							<div class="container container-fluid">
+								<h5 class="py-3 mt-3 text-center">Tahukah Kamu?</h5>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<img src="../../img/quotes7.jpeg" alt="" />
+											<p class="font-weight-bold text-center mt-3">
+												Sebuah pohon dewasa dapat menyerap 21,7 Kg
+												Karbondioksida sepanjanag tahunnya. Sebuah pohon yang
+												dapat mencukupi kebutuhkan oksigen untuk 2 orang
+												sepanjang hidupnya. Sebuah pohon dapat menggantikan
+												pendingin AC untuk 10 ruangan selama 20 jam
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center">
+				<span
+					><a
+						href="index kontributor.html"
+						class="text-decoration-none d-inline-block mt-4 text-center"
+						style="color: #007bff;"
+						>Kembali ke halaman</a
+					></span
+				>
+			</div>
+		</section>
+
+		<script src="../../js/react-with-addons-0.14.3.min.js"></script>
+		<script src="../../js/react-dom-0.14.3.min.js"></script>
+		<script src="../../js/jquery-3.4.1.slim.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/bootstrap-datepicker.min.js"></script>
+		<script src="../../js/script setting kontributor.js"></script>
+	</body>
+</html>
