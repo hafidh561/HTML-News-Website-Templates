@@ -19,7 +19,7 @@ Free static HTML News website templates created with Bootstrap and few JS librar
 
 [MIT](./LICENSE)
 
-### Changelog
+#### Changelog
 
 **1.0**
 
