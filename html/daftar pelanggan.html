@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafaMedia - Daftar Pelanggan</title>
+		<link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/style daftar pelanggan.css" />
+		<link rel="stylesheet" href="../css/bootstrap-datepicker.min.css" />
+	</head>
+
+	<body>
+		<section class="sign-up-pelanggan" id="sign-up-pelanggan">
+			<div class="container">
+				<h3 class="text-center mb-4 mt-4">Daftar Pelanggan</h3>
+				<div class="row justify-content-center">
+					<div class="col-md-6">
+						<form>
+							<div class="form-group mb-3">
+								<label for="nama1">Nama</label>
+								<input
+									type="text"
+									class="form-control nama1"
+									id="nama1"
+									placeholder="Masukkan nama"
+									aria-label="Nama"
+									aria-describedby="basic-addon1"
+									required
+								/>
+							</div>
+							<div class="form-group mb-3">
+								<label for="email1">Email</label>
+								<input
+									type="email"
+									class="form-control email1"
+									id="email1"
+									placeholder="Masukkan email"
+									aria-label="Email"
+									aria-describedby="basic-addon1"
+								/>
+							</div>
+							<div class="form-group mb-3">
+								<label for="nohp">No. Hp</label>
+								<input
+									type="tel"
+									class="form-control nohp"
+									id="nohp"
+									placeholder="Masukkan nomor hp"
+									aria-label="Nomor Hp"
+									aria-describedby="basic-addon1"
+								/>
+								<small id="noHpHelpBlock" class="form-text text-muted">
+									Masukkan nomor dengan format +628xx
+								</small>
+							</div>
+							<div class="form-group mb-3">
+								<label for="password1">Password</label>
+								<input
+									type="password"
+									class="form-control password1"
+									id="password1"
+									placeholder="Masukkan password"
+									aria-label="Password"
+									aria-describedby="basic-addon1"
+								/>
+								<small id="passwordHelpBlock" class="form-text text-muted">
+									Password harus memiliki panjang 8 - 20 karakter, termasuk
+									huruf dan angka. Tidak termasuk dengan huruf spasi, karakter
+									spesial, atau emoji.
+								</small>
+							</div>
+							<div class="form-group mb-3">
+								<input
+									type="password"
+									class="form-control verif-password"
+									placeholder="Masukkan password lagi"
+									aria-label="Verifikasi-Password"
+									aria-describedby="basic-addon1"
+								/>
+							</div>
+							<div class="form-group mb-3">
+								<label for="gender">Kelamin</label>
+								<select class="form-control gender" id="gender">
+									<option value="male">Laki-Laki</option>
+									<option value="female">Perempuan</option>
+								</select>
+							</div>
+							<div class="form-group mb-3">
+								<label for="tanggal-lahir">Tanggal Lahir</label>
+								<input
+									type="text"
+									class="form-control datepicker tanggal-lahir"
+									id="tanggal-lahir"
+									placeholder="  Masukkan tanggal lahir"
+									aria-label="Tanggal-Lahir"
+									aria-describedby="basic-addon1"
+								/>
+							</div>
+							<div class="form-group mb-3">
+								<label for="alamat">Alamat</label>
+								<textarea
+									class="form-control alamat"
+									id="alamat"
+									aria-label="With textarea"
+									placeholder="Masukkan alamat"
+								></textarea>
+							</div>
+							<div class="form-group mb-3 ml-3">
+								<input
+									type="checkbox"
+									class="form-check-input mt-2"
+									id="tetap-masuk"
+								/>
+								<label class="form-check-label" for="tetap-masuk"
+									>Saya setuju dengan syarat dan ketentuan yang berlaku
+								</label>
+								<small id="emailHelp" class="form-text text-muted"></small>
+							</div>
+
+							<button type="submit" class="btn btn-dark">
+								<a
+									href="verifikasi email.html"
+									class="text-decoration-none"
+									style="color: white;"
+									>Daftar</a
+								>
+							</button>
+						</form>
+						<hr />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="masuk-dengan" id="masuk-dengan">
+			<div class="container text-center">
+				<div>Atau daftar dengan</div>
+				<div class="account pt-3">
+					<span class="fb">
+						<a href="https://facebook.com" class="text-decoration-none">
+							<img src="../img/fb real.png" alt="" />
+						</a>
+					</span>
+					<span class="gmail">
+						<a href="https://google.com" class="text-decoration-none">
+							<img src="../img/gmail real.png" alt="" />
+						</a>
+					</span>
+					<span class="guest">
+						<a href="guest/index guest.html" class="text-decoration-none guest">
+							<img src="../img/guest.png" alt="" />
+							<h4 class="d-block">Guest</h4>
+						</a>
+					</span>
+				</div>
+				<span
+					><a
+						href="../index.html"
+						class="text-decoration-none d-inline-block pt-3"
+						>Kembali ke halaman</a
+					></span
+				>
+			</div>
+		</section>
+
+		<script src="../js/react-with-addons-0.14.3.min.js"></script>
+		<script src="../js/react-dom-0.14.3.min.js"></script>
+		<script src="../js/jquery-3.4.1.slim.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/bootstrap-datepicker.min.js"></script>
+		<script src="../js/script daftar pelanggan.js"></script>
+	</body>
+</html>
