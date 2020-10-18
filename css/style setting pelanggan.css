@@ -1,0 +1,75 @@
+img {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
+body {
+	background-color: #E3F2FD;
+}
+
+a:hover {
+	color: rgb(207, 201, 201);
+}
+
+a {
+	color: #E3F2FD;
+}
+
+
+.account img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.logo {
+	margin-right: 1vw;
+}
+
+.logo img {
+	width: 1.3em;
+	height: 1.3em;
+	margin-right: .5em;
+}
+
+.setting{
+	margin-top: 80px;
+}
+
+.setting .profile .btn img{
+	margin-bottom: 3px;
+}
+
+.setting .profile input{
+	position: relative;
+}
+
+.profile, .edit-profil, .kalimat-quotes{
+	background-color: rgb(222, 226, 230);
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+.profile .tanggal-masuk{
+	font-size: 12px;
+}
+
+.user h6{
+	color: #E3F2FD;
+}
+
+.kalimat-quotes img {
+	width: 100%;
+}
+
+.tempat-kanan{
+	margin-top:-15px;
+}

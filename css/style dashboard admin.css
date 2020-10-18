@@ -1,0 +1,74 @@
+img {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
+body {
+	background-color: #E3F2FD;
+}
+
+a:hover {
+	color: rgb(207, 201, 201);
+}
+
+a {
+	color: #E3F2FD;
+}
+
+
+.account img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.logo {
+	margin-right: 1vw;
+}
+
+.logo img {
+	width: 1.3em;
+	height: 1.3em;
+	margin-right: .5em;
+}
+
+.dashboard{
+	margin-top: 80px;
+}
+
+.activity, .komentar-terakhir, .kalimat-quotes{
+	background-color: rgb(222, 226, 230);
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+.activity img{
+	width: 85%;
+	height: 60%;
+}
+
+.activity a, .tab-content div h6, .tab-content div p {
+	color: #212529;
+}
+
+.tab-content a img{
+	width: 95%;
+	height: 10%;
+}
+
+.kalimat-quotes img{
+	width: 100%;
+}
+
+.dropdown-menu {
+	padding: .5em;
+	width: max-content;
+}

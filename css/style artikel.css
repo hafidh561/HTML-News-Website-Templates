@@ -1,0 +1,110 @@
+a:hover {
+    text-decoration: none;
+    color: #748588;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+button:hover {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+hr{
+    width: 50vw;
+    background-color: rgb(230, 230, 230);
+    margin-right: 50vw;
+}
+
+a {
+    color: #343a40;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link img {
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown-menu {
+    width: max-content;
+}
+
+.navbar-nav {
+    padding-right: 250px;
+}
+
+.form-inline {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dropdown {
+    padding-right: 10px;
+}
+
+.account a {
+    color: #899da0;
+}
+
+.account a:hover {
+    color: rgb(200, 212, 214);
+}
+
+
+footer {
+    background-color: #343A40;
+    min-height: 250px;
+}
+
+footer h3,
+footer h4,
+footer p,
+footer h5,
+footer span {
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.7em;
+}
+
+.navbar-light h3 {
+    margin: auto;
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.silang {
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tombol-atas img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+}
+
+.konten{
+    margin-top: 100px;
+}
+

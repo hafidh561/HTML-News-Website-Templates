@@ -1,0 +1,46 @@
+img {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
+body {
+	background-color: #E3F2FD;
+}
+
+a:hover {
+	color: rgb(207, 201, 201);
+}
+
+a {
+	color: #E3F2FD;
+}
+
+
+.account img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.logo {
+	margin-right: 1vw;
+}
+
+.logo img {
+	width: 1.3em;
+	height: 1.3em;
+	margin-right: .5em;
+}
+
+.buat-artikel {
+	margin-top: 80px;
+}
+
+.container .row {
+	background-color: #DEE2E6;
+}

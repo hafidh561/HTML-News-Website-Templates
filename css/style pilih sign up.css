@@ -1,0 +1,18 @@
+body{
+	background-color: #E3F2FD;
+}
+
+.logo img{
+	width: 12em;
+	height: auto;
+}
+
+.masuk-dengan img {
+	width: 5em;
+}
+
+.guest h4 {
+	position: relative;
+	left: 3.5em;
+	color: black;
+}
