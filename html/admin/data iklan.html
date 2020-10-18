@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafaMedia - Data Iklan</title>
+		<link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="../../css/style kelola artikel kontributor.css"
+		/>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="pos-f-l">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div
+						class="collapse text-decoration-none"
+						id="navbarToggleExternalContent"
+					>
+						<div class="pilihan mt-4">
+							<a href="dashboard admin.html" class="text-decoration-none"
+								><h6>Dashboard</h6></a
+							>
+							<a href="data master.html" class="text-decoration-none"
+								><h6>Data Pengguna</h6></a
+							>
+							<a href="data transaksi.html" class="text-decoration-none"
+								><h6>Data Transaksi</h6></a
+							>
+							<a href="data iklan.html" class="text-decoration-none"
+								><h6>Data Iklan</h6></a
+							>
+							<a href="setting admin.html" class="text-decoration-none"
+								><h6>Setting</h6></a
+							>
+							<a href="help admin.html" class="text-decoration-none"
+								><h6>Help</h6></a
+							>
+							<a href="about admin.html" class="text-decoration-none"
+								><h6>About</h6></a
+							>
+							<a href="../../index.html" class="text-decoration-none"
+								><h6>Log Out</h6></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="account">
+					<div class="logo d-inline-block">
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/message.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada pesan</h6>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/bell.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada notifikasi</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						href="dashboard admin.html"
+						class="text-decoration-none d-inline-block"
+						><h6 class="mx-2 d-inline-block">Admin</h6>
+						<img
+							src="../../img/guest.jpg"
+							alt=""
+							width="40em"
+							height="40em"
+							class="mb-1 d-inline-block"
+						/>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<section class="kelola-artikel mb-4" id="kelola-artikel">
+			<div class="container container-fluid rounded-lg">
+				<h4 class="mb-4">Data Iklan</h4>
+				<div class="row ml-1 rounded-lg">
+					<div class="col-md-8">
+						<a
+							href="buat iklan.html"
+							target="_blank"
+							class="text-decoration-none ml-2"
+							><button class="submit btn btn-dark my-3">
+								Buat Iklan Baru
+							</button></a
+						>
+					</div>
+					<div class="col-md-4">
+						<form class="form-inline mt-3 ml-5">
+							<input
+								class="form-control mr-sm-2"
+								type="search"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+							<button
+								class="btn btn-outline-secondary my-2 my-sm-0"
+								type="submit"
+							>
+								Search
+							</button>
+						</form>
+					</div>
+					<div class="col-md-12">
+						<h5 class="p-2 mt-1">Daftar Iklan Aktif</h5>
+						<div class="table-responsive">
+							<table
+								class="table table-sm table-hover table-bordered text-center d-block p-2"
+							>
+								<thead>
+									<tr>
+										<th scope="col" class="align-middle">No</th>
+										<th scope="col" class="align-middle">Kode Iklan</th>
+										<th scope="col" class="align-middle">Nama Iklan</th>
+										<th scope="col" class="align-middle">Mediator Iklan</th>
+										<th scope="col" class="align-middle">No. Hp</th>
+										<th scope="col" class="align-middle">Jenis Iklan</th>
+										<th scope="col" class="align-middle">Masa Berlaku Iklan</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row" class="align-middle">
+											1
+										</th>
+										<td>
+											<a
+												href="iklan1.html"
+												class="text-decoration-none align-middle"
+												target="_blank"
+											>
+												BC01L11</a
+											>
+										</td>
+										<td class="align-middle">
+											Indofood
+										</td>
+										<td class="align-middle">Budi Supratman</td>
+
+										<td class="align-middle">+6281025391201</td>
+										<td class="align-middle">CPM</td>
+										<td class="align-middle">31 Mei 2020</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-middle">
+											2
+										</th>
+										<td>
+											<a
+												href="iklan2.html"
+												class="text-decoration-none align-middle"
+												target="_blank"
+											>
+												BC97K90</a
+											>
+										</td>
+										<td class="align-middle">
+											Coca-Cola
+										</td>
+										<td class="align-middle">Jumaidi Sutarno</td>
+
+										<td class="align-middle">+6285693018692</td>
+										<td class="align-middle">PPP</td>
+										<td class="align-middle">30 Juni 2020</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-middle">
+											3
+										</th>
+										<td>
+											<a
+												href="iklan3.html"
+												class="text-decoration-none align-middle"
+												target="_blank"
+											>
+												BC12L11</a
+											>
+										</td>
+										<td class="align-middle">
+											Tokopedia
+										</td>
+										<td class="align-middle">Hans Danar</td>
+
+										<td class="align-middle">+6288293759310</td>
+										<td class="align-middle">PPC</td>
+										<td class="align-middle">30 April 2020</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="container container-fluid">
+						<div class="row justify-content-end mr-4">
+							<div class="col-md-2">
+								<nav aria-label="halaman">
+									<ul class="pagination">
+										<li class="page-item disabled">
+											<a class="page-link" href="#" tabindex="-1">Previous</a>
+										</li>
+										<li class="page-item active">
+											<a class="page-link" href="#">1</a>
+										</li>
+										<li class="page-item disabled">
+											<a class="page-link" href="#">Next</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center">
+				<span
+					><a
+						href="index admin.html"
+						class="text-decoration-none d-inline-block my-4 text-center"
+						style="color: #007bff;"
+						>Kembali ke halaman</a
+					></span
+				>
+			</div>
+		</section>
+
+		<script src="../../js/react-with-addons-0.14.3.min.js"></script>
+		<script src="../../js/react-dom-0.14.3.min.js"></script>
+		<script src="../../js/jquery-3.4.1.slim.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/script kelola artikel kontributor.js"></script>
+	</body>
+</html>

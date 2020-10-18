@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafaMedia - Setting Akun</title>
+		<link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../css/style setting pelanggan.css" />
+		<link rel="stylesheet" href="../../css/bootstrap-datepicker.min.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="pos-f-l">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div
+						class="collapse text-decoration-none"
+						id="navbarToggleExternalContent"
+					>
+						<div class="pilihan mt-4">
+							<a href="dashboard admin.html" class="text-decoration-none"
+								><h6>Dashboard</h6></a
+							>
+							<a href="data master.html" class="text-decoration-none"
+								><h6>Data Pengguna</h6></a
+							>
+							<a href="data transaksi.html" class="text-decoration-none"
+								><h6>Data Transaksi</h6></a
+							>
+							<a href="data iklan.html" class="text-decoration-none"
+								><h6>Data Iklan</h6></a
+							>
+							<a href="setting admin.html" class="text-decoration-none"
+								><h6>Setting</h6></a
+							>
+							<a href="help admin.html" class="text-decoration-none"
+								><h6>Help</h6></a
+							>
+							<a href="about admin.html" class="text-decoration-none"
+								><h6>About</h6></a
+							>
+							<a href="../../index.html" class="text-decoration-none"
+								><h6>Log Out</h6></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="account">
+					<div class="logo d-inline-block">
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/message.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada pesan</h6>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/bell.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada notifikasi</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						href="dashboard admin.html"
+						class="text-decoration-none d-inline-block"
+						><h6 class="mx-2 d-inline-block">Admin</h6>
+						<img
+							src="../../img/guest.jpg"
+							alt=""
+							width="40em"
+							height="40em"
+							class="mb-1 d-inline-block"
+						/>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<section class="setting mb-5" id="setting">
+			<div class="container container-fluid">
+				<h4 class="mb-4">Setting</h4>
+				<div class="row">
+					<div class="col-md-9">
+						<section class="profile p-3" id="profile">
+							<div class="container container-fluid">
+								<h5>Profil</h5>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="col-md-3">
+												<img
+													src="../../img/guest.jpg"
+													alt=""
+													width="140px"
+													height="140px"
+													class="rounded-circle"
+												/>
+											</div>
+											<div class="col-md-4 mt-3">
+												<h6>Admin PertamaKali</h6>
+												<p>
+													admin@safamedia.com<small
+														id="last-seen"
+														class="form-text text-muted"
+													>
+														Baru saja dilihat
+													</small>
+												</p>
+											</div>
+											<div class="col-md-5">
+												<div class="row justify-content-end">
+													<div class="col-md-5">
+														<div class="user">
+															<h6 class="bg-dark p-1 text-center rounded-lg">
+																Admin
+															</h6>
+														</div>
+														<div class="tanggal-masuk">
+															<p>Mendaftar Tanggal 1 Januari 2010</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="edit-profil p-3 mt-4 pl-4" id="edit-profil">
+							<div class="row">
+								<div class="col-md-6">
+									<h5 class="my-4">Edit Profil</h5>
+									<div class="container-container-fluid">
+										<div class="row justify-content-start">
+											<div class="col-md-12">
+												<form>
+													<div class="form-group mb-3">
+														<label for="nama1">Nama</label>
+														<input
+															type="text"
+															class="form-control nama1"
+															id="nama1"
+															placeholder="Masukkan nama baru"
+															aria-label="Nama"
+															aria-describedby="basic-addon1"
+															value="Admin PertamaKali"
+															required
+														/>
+													</div>
+
+													<div class="form-group mb-3">
+														<label for="nohp">No. Hp</label>
+														<input
+															type="tel"
+															class="form-control nohp"
+															id="nohp"
+															placeholder="Masukkan nomor hp baru"
+															aria-label="Nomor Hp"
+															aria-describedby="basic-addon1"
+															value="+6281928540293"
+														/>
+														<small
+															id="noHpHelpBlock"
+															class="form-text text-muted"
+														>
+															Masukkan nomor dengan format +628xx
+														</small>
+													</div>
+													<div class="form-group mb-3">
+														<label for="gender">Kelamin</label>
+														<select class="form-control gender" id="gender">
+															<option value="male">Laki-Laki</option>
+															<option value="female">Perempuan</option>
+														</select>
+													</div>
+													<div class="form-group mb-3">
+														<label for="tanggal-lahir">Tanggal Lahir</label>
+														<input
+															type="text"
+															class="form-control datepicker tanggal-lahir"
+															id="tanggal-lahir"
+															placeholder="  Masukkan tanggal lahir baru"
+															aria-label="Tanggal-Lahir"
+															aria-describedby="basic-addon1"
+															value="2001-03-06"
+														/>
+													</div>
+													<div class="form-group mb-4 alamatlur">
+														<label for="alamat">Alamat</label>
+														<textarea
+															class="form-control alamat"
+															id="alamat"
+															aria-label="With textarea"
+															placeholder="Masukkan alamat baru"
+														>
+Pandaan, Pasuruan</textarea
+														>
+													</div>
+													<div class="form-group" style="margin-top: 35px;">
+														<label for="foto">Foto Baru</label>
+														<div class="custom-file">
+															<input
+																type="file"
+																class="custom-file-input"
+																id="foto"
+																id="validatedCustomFile"
+																required
+															/>
+															<label
+																class="custom-file-label"
+																for="validatedCustomFile"
+																>Choose file...</label
+															>
+															<div class="invalid-feedback">
+																Example invalid custom file feedback
+															</div>
+														</div>
+													</div>
+													<button type="submit" class="btn btn-dark">
+														<a
+															href="setting pelanggan.html"
+															class="text-decoration-none"
+															style="color: white;"
+															>Simpan</a
+														>
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<h5 class="my-4">Edit Password</h5>
+									<div class="row">
+										<div class="col-md-12">
+											<form>
+												<div class="form-group mb-3">
+													<label for="password1">Password Lama</label>
+													<input
+														type="password"
+														class="form-control password1"
+														id="password1"
+														placeholder="Masukkan password lama"
+														aria-label="Password"
+														aria-describedby="basic-addon1"
+														required
+													/>
+												</div>
+												<label for="baru-password">Password Baru</label>
+												<div class="form-group mb-3">
+													<input
+														type="password"
+														class="form-control baru-password"
+														placeholder="Masukkan password baru"
+														aria-label="Baru-Password"
+														aria-describedby="basic-addon1"
+														required
+													/>
+													<small
+														id="passwordHelpBlock"
+														class="form-text text-muted"
+													>
+														Password harus memiliki panjang 8 - 20 karakter,
+														termasuk huruf dan angka. Tidak termasuk dengan
+														huruf spasi, karakter spesial, atau emoji.
+													</small>
+												</div>
+												<div class="form-group mb-3">
+													<input
+														type="password"
+														class="form-control verif-password"
+														placeholder="Masukkan password lagi"
+														aria-label="Verifikasi-Password"
+														aria-describedby="basic-addon1"
+														required
+													/>
+												</div>
+												<button type="submit" class="btn btn-dark">
+													<a
+														href="setting pelanggan.html"
+														class="text-decoration-none"
+														style="color: white;"
+														>Simpan</a
+													>
+												</button>
+											</form>
+										</div>
+
+										<div class="row p-3">
+											<h5 class="my-4 ml-3">Edit Email</h5>
+											<div class="col-md-12">
+												<form>
+													<div class="form-group mb-3">
+														<label for="email1">Email Lama</label>
+														<input
+															type="email"
+															class="form-control email1"
+															id="email1"
+															placeholder="Masukkan email lama"
+															aria-label="Email"
+															aria-describedby="basic-addon1"
+														/>
+													</div>
+													<div class="form-group mb-3">
+														<label for="email1">Email Baru</label>
+														<input
+															type="email"
+															class="form-control email1"
+															id="email1"
+															placeholder="Masukkan email baru"
+															aria-label="Email"
+															aria-describedby="basic-addon1"
+														/>
+													</div>
+													<button type="submit" class="btn btn-dark">
+														<a
+															href="setting pelanggan.html"
+															class="text-decoration-none"
+															style="color: white;"
+															>Simpan</a
+														>
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-md-3 tempat-kanan">
+						<section class="kalimat-quotes">
+							<div class="container container-fluid">
+								<h5 class="pt-3 mt-3 text-center">Server basis data</h5>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<ul>
+												<li>Server: 127.0.0.1 via TCP/IP</li>
+												<li>Jenis server: MariaDB</li>
+												<li>Koneksi server: SSL sedang tidak digunakan</li>
+												<li>
+													Versi server: 10.4.11-MariaDB - mariadb.org binary
+													distribution
+												</li>
+												<li>Versi protokol: 10</li>
+												<li>Pengguna: admin@safamedia.com</li>
+												<li>
+													Kumpulan karakter server: UTF-8 Unicode (utf8mb4)
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="kalimat-quotes">
+							<div class="container container-fluid">
+								<h5 class="pt-3 mt-3 text-center">Server web</h5>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<ul>
+												<li>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.3</li>
+												<li>
+													Versi klien basis data: libmysql - mysqlnd 7.4.3
+												</li>
+												<li>
+													Versi klien basis data: libmysql - mysqlnd 7.4.3
+												</li>
+												<li>
+													Versi PHP: 7.4.3
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center">
+				<span
+					><a
+						href="index admin.html"
+						class="text-decoration-none d-inline-block mt-4 text-center"
+						style="color: #007bff;"
+						>Kembali ke halaman</a
+					></span
+				>
+			</div>
+		</section>
+
+		<script src="../../js/react-with-addons-0.14.3.min.js"></script>
+		<script src="../../js/react-dom-0.14.3.min.js"></script>
+		<script src="../../js/jquery-3.4.1.slim.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/bootstrap-datepicker.min.js"></script>
+		<script src="../../js/script setting pelanggan.js"></script>
+	</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafaMedia - Edit Pengguna</title>
+		<link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../css/bootstrap-datepicker.min.css" />
+		<link
+			rel="stylesheet"
+			href="../../css/style buat artikel kontributor.css"
+		/>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="pos-f-l">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div
+						class="collapse text-decoration-none"
+						id="navbarToggleExternalContent"
+					>
+						<div class="pilihan mt-4">
+							<a href="dashboard admin.html" class="text-decoration-none"
+								><h6>Dashboard</h6></a
+							>
+							<a href="data master.html" class="text-decoration-none"
+								><h6>Data Pengguna</h6></a
+							>
+							<a href="data transaksi.html" class="text-decoration-none"
+								><h6>Data Transaksi</h6></a
+							>
+							<a href="data iklan.html" class="text-decoration-none"
+								><h6>Data Iklan</h6></a
+							>
+							<a href="setting admin.html" class="text-decoration-none"
+								><h6>Setting</h6></a
+							>
+							<a href="help admin.html" class="text-decoration-none"
+								><h6>Help</h6></a
+							>
+							<a href="about admin.html" class="text-decoration-none"
+								><h6>About</h6></a
+							>
+							<a href="../../index.html" class="text-decoration-none"
+								><h6>Log Out</h6></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="account">
+					<div class="logo d-inline-block">
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/message.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada pesan</h6>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/bell.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada notifikasi</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						href="dashboard admin.html"
+						class="text-decoration-none d-inline-block"
+						><h6 class="mx-2 d-inline-block">Admin</h6>
+						<img
+							src="../../img/guest.jpg"
+							alt=""
+							width="40em"
+							height="40em"
+							class="mb-1 d-inline-block"
+						/>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<section class="buat-artikel mb-4" id="buat-artikel">
+			<div class="container container-fluid rounded-lg">
+				<h4 class="mb-4">Edit Pengguna</h4>
+				<div class="row edit-profil p-3" id="edit-profil rounded-lg">
+					<div class="col-md-12">
+						<form>
+							<div class="form-group mb-3">
+								<label for="nama1">Nama</label>
+								<input
+									type="text"
+									class="form-control nama1"
+									id="nama1"
+									placeholder="Masukkan nama baru"
+									aria-label="Nama"
+									aria-describedby="basic-addon1"
+									required
+									value="Contoh Nama Kontributor Lagi"
+								/>
+							</div>
+							<div class="form-group mb-3">
+								<label for="email1">Email</label>
+								<input
+									type="email"
+									class="form-control email1"
+									id="email1"
+									placeholder="Masukkan email baru"
+									aria-label="Email"
+									aria-describedby="basic-addon1"
+									required
+									value="kontributor123@gmail.com"
+								/>
+							</div>
+							<label for="lama-password">Password</label>
+							<div class="form-group mb-3">
+								<input
+									type="text"
+									class="form-control lama-password"
+									placeholder="Masukkan password baru"
+									aria-label="lama-Password"
+									aria-describedby="basic-addon1"
+									required
+									value="apakabardunia"
+								/>
+								<small id="passwordHelpBlock" class="form-text text-muted">
+									Password harus memiliki panjang 8 - 20 karakter, termasuk
+									huruf dan angka. Tidak termasuk dengan huruf spasi, karakter
+									spesial, atau emoji.
+								</small>
+							</div>
+							<div class="form-group mb-3">
+								<label for="nohp">No. Hp</label>
+								<input
+									type="tel"
+									class="form-control nohp"
+									id="nohp"
+									placeholder="Masukkan nomor hp baru"
+									aria-label="Nomor Hp"
+									aria-describedby="basic-addon1"
+									value="+6284739102948"
+									required
+								/>
+								<small id="noHpHelpBlock" class="form-text text-muted">
+									Masukkan nomor dengan format +628xx
+								</small>
+							</div>
+							<div class="form-group mb-3">
+								<label for="gender">Kelamin</label>
+								<select class="form-control gender" id="gender">
+									<option value="female">Perempuan</option>
+									<option value="male">Laki-Laki</option>
+								</select>
+							</div>
+							<div class="form-group mb-3">
+								<label for="tanggal-lahir">Tanggal Lahir</label>
+								<input
+									type="text"
+									class="form-control datepicker tanggal-lahir"
+									id="tanggal-lahir"
+									placeholder="  Masukkan tanggal lahir baru"
+									aria-label="Tanggal-Lahir"
+									aria-describedby="basic-addon1"
+									value="1997-01-11"required
+								/>
+							</div>
+							<div class="form-group mb-4 alamatlur">
+								<label for="alamat">Alamat</label>
+								<textarea
+									class="form-control alamat"
+									id="alamat"
+									aria-label="With textarea"
+									placeholder="Masukkan alamat baru"
+									required
+								>
+Surabaya Utara
+								</textarea
+								>
+							</div>
+							<div class="form-group">
+								<label for="foto">Foto</label>
+								<div class="custom-file">
+									<input
+										type="file"
+										class="custom-file-input"
+										id="foto"
+										id="validatedCustomFile"
+										required
+									/>
+									<label class="custom-file-label" for="validatedCustomFile"
+										>Choose file...</label
+									>
+									<div class="invalid-feedback">
+										Example invalid custom file feedback
+									</div>
+								</div>
+							</div>
+							<div class="form-group mb-3">
+								<label for="hak-akses">Hak Akses</label>
+								<select class="form-control hak-akses" id="hak-akses">
+									<option value="kontributor">Kontributor</option>
+									<option value="pelanggan">Pelanggan</option>
+								</select>
+							</div>
+							<div class="form-group form-check">
+								<input
+									type="checkbox"
+									class="form-check-input"
+									id="tetap-masuk"
+								/>
+								<label class="form-check-label" for="tetap-masuk"
+									>Terima Permintaan</label
+								>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<button type="submit" class="btn btn-dark">
+										<a
+											href="data master.html"
+											class="text-decoration-none"
+											style="color: white;"
+											>Simpan</a
+										>
+									</button>
+									<button type="reset" class="btn btn-light">
+										<a
+											href="data master.html"
+											class="text-decoration-none"
+											style="color: #343a40;"
+											>Cancel</a
+										>
+									</button>
+								</div>
+								<div class="col-md-9 text-right">
+									<button type="button" class="btn btn-danger text-right">
+										<a
+											href="data master.html"
+											class="text-decoration-none"
+											style="color: #ffffff;"
+											>Hapus</a
+										>
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center">
+				<span
+					><a
+						href="data master.html"
+						class="text-decoration-none d-inline-block my-4 text-center"
+						style="color: #007bff;"
+						>Kembali ke data pengguna</a
+					></span
+				>
+				<span>|</span>
+				<span
+					><a
+						href="index admin.html"
+						class="text-decoration-none d-inline-block my-4 text-center"
+						style="color: #007bff;"
+						>Kembali ke halaman</a
+					></span
+				>
+			</div>
+		</section>
+
+		<script src="../../js/react-with-addons-0.14.3.min.js"></script>
+		<script src="../../js/react-dom-0.14.3.min.js"></script>
+		<script src="../../js/jquery-3.4.1.slim.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/bootstrap-datepicker.min.js"></script>
+		<script src="../../js/script daftar kontributor.js"></script>
+	</body>
+</html>

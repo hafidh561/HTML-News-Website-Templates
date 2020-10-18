@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafaMedia - Dashboard Akun</title>
+		<link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../css/Chart.css" />
+		<link rel="stylesheet" href="../../css/style dashboard admin.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="pos-f-l">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div
+						class="collapse text-decoration-none"
+						id="navbarToggleExternalContent"
+					>
+						<div class="pilihan mt-4">
+							<a href="dashboard admin.html" class="text-decoration-none"
+								><h6>Dashboard</h6></a
+							>
+							<a href="data master.html" class="text-decoration-none"
+								><h6>Data Pengguna</h6></a
+							>
+							<a href="data transaksi.html" class="text-decoration-none"
+								><h6>Data Transaksi</h6></a
+							>
+							<a href="data iklan.html" class="text-decoration-none"
+								><h6>Data Iklan</h6></a
+							>
+							<a href="setting admin.html" class="text-decoration-none"
+								><h6>Setting</h6></a
+							>
+							<a href="help admin.html" class="text-decoration-none"
+								><h6>Help</h6></a
+							>
+							<a href="about admin.html" class="text-decoration-none"
+								><h6>About</h6></a
+							>
+							<a href="../../index.html" class="text-decoration-none"
+								><h6>Log Out</h6></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="account">
+					<div class="logo d-inline-block">
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/message.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada pesan</h6>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown d-inline-block">
+							<a
+								href=""
+								class="dropdown-toggle text-decoration-none"
+								role="button"
+								id="dropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+								style="color: #343a40;"
+							>
+								<img src="../../img/bell.png" alt="" />
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="list-group">
+									<h6 class="text-center">Tidak ada notifikasi</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						href="dashboard admin.html"
+						class="text-decoration-none d-inline-block"
+						><h6 class="mx-2 d-inline-block">Admin</h6>
+						<img
+							src="../../img/guest.jpg"
+							alt=""
+							width="40em"
+							height="40em"
+							class="mb-1 d-inline-block"
+						/>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<section class="dashboard mb-5" id="dashboard">
+			<div class="container container-fluid">
+				<div class="row">
+					<div class="col-md-6"><h4>Dashboard</h4></div>
+					<div class="col-md-6 text-right"><span id="tanggal"></span></div>
+				</div>
+				<div class="row">
+					<div class="col-md-9">
+						<section class="activity pb-3">
+							<div class="container container-fluid">
+								<h5 class="pt-4 ml-3 mt-3">Total Pengunjung</h5>
+								<div class="container container-fluid">
+									<div class="row justify-content-start">
+										<div class="col-md-12">
+											<div style="width: 100%; height: 100%;">
+												<canvas id="grafik1" class="mt-4"></canvas>
+												<p class="text-center font-italic mt-2">
+													Perkembangan statistik pengunjung hari ini
+												</p>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div style="width: 100%; height: 100%;">
+												<canvas id="grafik2" class="mt-4"></canvas>
+												<p class="text-center font-italic mt-2">
+													Perkembangan statistik pengunjung satu minggu terakhir
+												</p>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div style="width: 100%; height: 100%;">
+												<canvas id="grafik3" class="mt-4"></canvas>
+												<p class="text-center font-italic mt-2">
+													Perkembangan statistik pengunjung satu bulan terakhir
+												</p>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div style="width: 100%; height: 100%;">
+												<canvas id="grafik4" class="mt-4"></canvas>
+												<p class="text-center font-italic mt-2">
+													Perkembangan statistik pengunjung satu tahun terakhir
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-md-3">
+						<section class="kalimat-quotes pb-3">
+							<div class="container container-fluid">
+								<h5 class="py-3 mt-3 text-center">User Online</h5>
+								<ul>
+									<li>Contoh Nama Pelanggan</li>
+									<li>Contoh Nama Kontributor</li>
+									<li>Admin</li>
+								</ul>
+							</div>
+						</section>
+						<section class="kalimat-quotes">
+							<div class="container container-fluid">
+								<h5 class="py-3 mt-3 text-center">Quotes Hari Ini</h5>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<img src="../../img/quotes12.jpeg" alt="" />
+											<p class="font-weight-bold text-center mt-3">
+												“Saat jarum jam dinding berputar ke kiri, orang akan menganggapnya rusak dan membuangnya. Manusia pun tidak boleh menengok ke belakang, terus maju dan maju, melangkah ke depan!”
+											</p>
+											<p class="font-weight-bold text-center">
+												― Yoshichi Shimada
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="kalimat-quotes">
+							<div class="container container-fluid">
+								<h5 class="py-3 mt-3 text-center">Tahukah Kamu?</h5>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<img src="../../img/quotes13.jpg" alt="" />
+											<p class="font-weight-bold text-center mt-3">
+												Makan dengan menggunakan mangkok dan menganggkatnya sampai di dekat mulut. Jika makan tidak melakukan hal serupa maka dianggap oleh masyarakat Jepang tidak sopan dan seperti Anjing.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center">
+				<span
+					><a
+						href="index admin.html"
+						class="text-decoration-none d-inline-block mt-4 text-center"
+						style="color: #007bff;"
+						>Kembali ke halaman</a
+					></span
+				>
+			</div>
+		</section>
+
+		<script src="../../js/react-with-addons-0.14.3.min.js"></script>
+		<script src="../../js/react-dom-0.14.3.min.js"></script>
+		<script src="../../js/jquery-3.4.1.slim.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/Chart.js"></script>
+		<script src="../../js/script dashboard admin.js"></script>
+	</body>
+</html>
